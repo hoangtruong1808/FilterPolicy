@@ -101,7 +101,7 @@ class FilterPolicy extends Main
     private function _getPolicies()
     {
         $data = [];
-        $list = \App\Models\Policy::orderBy('rank')->get()->toArray();
+        $list = \Policy\Model\Policy::orderBy('rank')->get()->toArray();
         foreach ($list as $item) {
             $item['policy_list_name'] = $item['filter_policy_list_name'];
             $data[] = $item;

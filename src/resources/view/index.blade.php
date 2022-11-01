@@ -114,7 +114,7 @@
             ajax: function (data, callback, settings) {
             $.ajax(
             {
-                url: '/policy/get-all-json',
+                url: '/filter-policy/get-all-json',
                 dataType: 'json',
                 dataSrc: '',
                 success: function (data) {
@@ -189,7 +189,7 @@
             orderable: false,
             render: function (data, type, row) {
                 let html =  '\
-                <a href="' + baseURL + 'policy/edit/'+ data.filter_policy_list_id +'" class="btn btn-sm btn-clean btn-icon btn-noti"  data-toggle="tooltip"  data-placement="top" title="'+arrLanguage['edit']+'">\
+                <a href="' + baseURL + 'filter-policy/edit/'+ data.filter_policy_list_id +'" class="btn btn-sm btn-clean btn-icon btn-noti"  data-toggle="tooltip"  data-placement="top" title="'+arrLanguage['edit']+'">\
                     <i class="la la-edit"></i>\
                 </a>\ ';
 
@@ -241,7 +241,7 @@
 
         count_policy = count_policy - 1;
         let id = $('input[name="policy-delete-id"]').val();
-        var delete_url = "/policy/destroy/" + id;
+        var delete_url = "/filter-policy/destroy/" + id;
 
         $.ajax({
             url: delete_url,

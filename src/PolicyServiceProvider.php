@@ -26,5 +26,8 @@ class PolicyServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/routes.php');
         $this->loadMigrationsFrom(__DIR__.'/Database/migration');
         $this->loadViewsFrom(__DIR__.'/resources/view', 'Policy');
+        $this->publishes([
+            __DIR__.'/resources/assets' => public_path('hoangtruong1808/filter-policy'),
+        ], 'public');
     }
 }
