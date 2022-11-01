@@ -45,23 +45,23 @@
             margin-left: 7px;
         }
         .pagination_plusIcon{
-            background:url("hoangtruong1808/filter-policy/img/create_off.png") no-repeat center;
+            background:url("/hoangtruong1808/filter-policy/img/create_off.png") no-repeat center;
             background-size: 14px 14px;
             cursor: pointer;
         }
         .pagination_plusIcon:hover{
-            background: url('hoangtruong1808/filter-policy/img/create_on.png') no-repeat center;
+            background: url('/hoangtruong1808/filter-policy/img/create_on.png') no-repeat center;
             background-size: 14px 14px;
             border: 1px solid #75abf5;
         }
 
         .pagination_minusIcon{
-            background:url("hoangtruong1808/filter-policy/img/ico_minus_off.png") no-repeat center;
+            background:url("/hoangtruong1808/filter-policy/img/ico_minus_off.png") no-repeat center;
             background-size: 12px 12px;
             cursor: pointer;
         }
         .pagination_minusIcon:hover{
-            background: url('hoangtruong1808/filter-policy/img/ico_minus_on.png') no-repeat center;
+            background: url('/hoangtruong1808/filter-policy/img/ico_minus_on.png') no-repeat center;
             background-size: 12px 12px;
             border: 1px solid #75abf5;
         }

@@ -2,8 +2,8 @@
 
 namespace Policy\Http\Controllers;
 
-use App\Http\Controllers\Controller;
-use App\Http\Requests\PolicyRequest;
+use Policy\Http\Controllers\Controller;
+use Policy\Http\Requests\PolicyRequest;
 use Policy\Model\Policy;
 use Barryvdh\Debugbar\Facades\Debugbar;
 use Doctrine\DBAL\Exception;
