@@ -13,5 +13,7 @@
             "email": "hoangtruong1808@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "barryvdh/laravel-debugbar": ">3.6.*"
+    }
 }
