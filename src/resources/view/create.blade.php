@@ -656,7 +656,7 @@
         })
     </script>
 
-    <script src="/js/validate-add-user.js"></script>
-    <script src="/js/policy.js"></script>
+    <script src="/hoangtruong1808/filter-policy/js/validate-add-user.js"></script>
+    <script src="/hoangtruong1808/filter-policy/js/policy.js"></script>
 
 @stop

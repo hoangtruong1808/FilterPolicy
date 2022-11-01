@@ -171,13 +171,13 @@
                 targets: 4,
                 render: function (data, type, row) {
                     if (data == 1) {
-                        btn_rank = "<button class='check_disabled' style='border: none; background: none; cursor: pointer' onClick='funcUpdateRank(`" + row.filter_policy_list_id + "`, "+ '`down`' +")'><img src={{ asset('hoangtruong1808/filter-policyhoangtruong1808/filter-policyhoangtruong1808/filter-policyhoangtruong1808/filter-policy/img/arrow_under.gif') }}></button>";
+                        btn_rank = "<button class='check_disabled' style='border: none; background: none; cursor: pointer' onClick='funcUpdateRank(`" + row.filter_policy_list_id + "`, "+ '`down`' +")'><img src={{ asset('hoangtruong1808/filter-policy/img/arrow_under.gif') }}></button>";
                     }
                     else if (data > 1 && data < count_policy) {
-                        btn_rank = "<button class='check_disabled' style='border: none; background: none; cursor: pointer' onClick='funcUpdateRank(`" + row.filter_policy_list_id + "`, "+ '`up`' +")'><img src={{ asset('hoangtruong1808/filter-policyhoangtruong1808/filter-policyhoangtruong1808/filter-policyhoangtruong1808/filter-policy/img/arrow_top.gif') }}></button><button class='check_disabled' style='border: none; background: none; cursor: pointer' onClick='funcUpdateRank(`" + row.filter_policy_list_id + "`, "+ '`down`' +")'><img src={{ asset('hoangtruong1808/filter-policyhoangtruong1808/filter-policyhoangtruong1808/filter-policyhoangtruong1808/filter-policy/img/arrow_under.gif') }}></button>";
+                        btn_rank = "<button class='check_disabled' style='border: none; background: none; cursor: pointer' onClick='funcUpdateRank(`" + row.filter_policy_list_id + "`, "+ '`up`' +")'><img src={{ asset('hoangtruong1808/filter-policy/img/arrow_top.gif') }}></button><button class='check_disabled' style='border: none; background: none; cursor: pointer' onClick='funcUpdateRank(`" + row.filter_policy_list_id + "`, "+ '`down`' +")'><img src={{ asset('hoangtruong1808/filter-policy/img/arrow_under.gif') }}></button>";
                     }
                     else if (data == count_policy) {
-                        btn_rank = "<button class='check_disabled' style='border: none; background: none; cursor: pointer' onClick='funcUpdateRank(`" + row.filter_policy_list_id + "`, "+ '`up`' +")'><img src={{ asset('hoangtruong1808/filter-policyhoangtruong1808/filter-policyhoangtruong1808/filter-policyhoangtruong1808/filter-policy/img/arrow_top.gif') }}></button>";
+                        btn_rank = "<button class='check_disabled' style='border: none; background: none; cursor: pointer' onClick='funcUpdateRank(`" + row.filter_policy_list_id + "`, "+ '`up`' +")'><img src={{ asset('hoangtruong1808/filter-policy/img/arrow_top.gif') }}></button>";
                     }
                     return btn_rank;
                 },
