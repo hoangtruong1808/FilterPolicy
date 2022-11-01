@@ -4,7 +4,7 @@ namespace Policy\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\PolicyRequest;
-use App\Models\Policy;
+use Policy\Model\Policy;
 use Barryvdh\Debugbar\Facades\Debugbar;
 use Doctrine\DBAL\Exception;
 use FilterPolicy;
