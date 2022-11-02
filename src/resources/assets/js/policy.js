@@ -285,7 +285,7 @@ function funcUpdateRank(row_id, type)
         id: row_id,
     };
     $.get(
-        '/policy/update-rank',
+        '/filter-policy/update-rank',
         data,
         function(data){
             if (data.status == true) {
