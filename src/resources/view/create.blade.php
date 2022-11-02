@@ -284,8 +284,9 @@
                                                                @if (isset($policy_value->match_pattern))
                                                                    @if (!$policy_value->match_pattern)
                                                                    checked
-                                                                   @endif>
+                                                                   @endif
                                                                @endif
+                                                           >
                                                         Không tính các từ lặp lại
                                                     </label>
                                                     <label for="duplicate_b_{{$checkpoint_key}}">
@@ -293,8 +294,9 @@
                                                                @if (isset($policy_value->match_pattern))
                                                                        @if ($policy_value->match_pattern)
                                                                        checked
-                                                                       @endif>
+                                                                       @endif
                                                                 @endif
+                                                        >
                                                         Tính các từ lặp lại
                                                     </label>
                                                     <br>
